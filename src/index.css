@@ -1,0 +1,106 @@
+/* General styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins , sans-serif;
+}
+/* Navbar Component's styles */
+.navbar{
+  box-shadow: 0px 0px 12px gray;
+  height: 70px;
+  width: 100%;
+}
+.navbar > img{
+  margin: 22px 30px;
+  max-width: 100px;
+}
+/* Hero Component's styles */
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid-container{
+  margin-block: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  
+}
+.grid-item > img{
+  padding: 3px;
+}
+.image2{
+  margin-top: -15px;
+}
+.image4{
+  margin-top: 75px;
+}
+
+.image8{
+  margin-top: 40px;
+}
+.text-field{
+  padding: 35px;
+}
+/* Card Component's styles */
+.card{
+  margin: 35px;
+  position: relative;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+.card-footer > img{
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+.card-footer >.reviewCount,.country{
+  color: #918E9B;
+  font-size: 15px;
+}
+.container{
+  display: flex;
+}
+.photo{
+  width: 264px;
+  height: 353px;
+  border-radius: 13.5px;
+}
+
+.availability{
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  border-radius: 2px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
